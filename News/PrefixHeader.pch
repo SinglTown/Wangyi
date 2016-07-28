@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  News
+//
+//  Created by lanou3g on 15/12/21.
+//  Copyright © 2015年 chuanbao. All rights reserved.
+//
+
+//#ifndef PrefixHeader_pch
+//#define PrefixHeader_pch
+//
+//// Include any system framework and library headers here that should be included in all compilation units.
+//// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//
+//#endif /* PrefixHeader_pch */
+
+
+
+#define kEntertainmentString @"T1348648517839/0-50"
+#define kSportsString @"T1348649079062/0-40"
+#define kScienceString @"T1348649580692/0-40"
+#define kFinanceString @"T1348648756099/0-20"
+
+
+#pragma mark - 视频的宏
+#define kHotMovieString @"V9LG4B3A0"
+#define kEnterMovieString @"V9LG4CHOR"
+#define kHightQualityString @"00850FRB"

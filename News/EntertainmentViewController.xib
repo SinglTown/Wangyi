@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EntertainmentViewController">
+            <connections>
+                <outlet property="entertainmentTableView" destination="j5M-99-HBg" id="bw3-35-lye"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="j5M-99-HBg">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="j5M-99-HBg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="LZU-cv-l6k"/>
+                <constraint firstAttribute="trailing" secondItem="j5M-99-HBg" secondAttribute="trailing" id="P4T-6E-Nxs"/>
+                <constraint firstAttribute="bottom" secondItem="j5M-99-HBg" secondAttribute="bottom" id="jbe-PM-5J1"/>
+                <constraint firstItem="j5M-99-HBg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="nFY-5J-E0x"/>
+            </constraints>
+            <point key="canvasLocation" x="314" y="241"/>
+        </view>
+    </objects>
+</document>
